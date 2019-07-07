@@ -28,8 +28,8 @@ def sum_matches(digits, get_digit_to_compare_idx):
 def main():
     with open(get_file_path('input_day1.txt'), 'rt') as f:
         digits = f.readline().rstrip()
-    print('Solution for day 1, puzzle 1: %s' % puzzle1(digits))
-    print('Solution for day 1, puzzle 2: %s' % puzzle2(digits))
+        print('Solution for day 1, puzzle 1: %s' % puzzle1(digits))
+        print('Solution for day 1, puzzle 2: %s' % puzzle2(digits))
 
 
 if __name__ == '__main__':
