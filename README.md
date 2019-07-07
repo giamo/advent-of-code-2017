@@ -1,4 +1,4 @@
-#advent_of_code_2017
+# advent_of_code_2017
 
 Solutions for the [Advent of code 2017](https://adventofcode.com/2017) challenge in Python
 
@@ -9,7 +9,7 @@ Solutions for the [Advent of code 2017](https://adventofcode.com/2017) challenge
 
 To get the solutions for a specific day:
 ```
-python -m adventofcode17.dayX
+$ python3 -m adventofcode17.dayX
 ```
 
 # Test
