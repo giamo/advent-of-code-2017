@@ -2,7 +2,7 @@ import unittest
 from adventofcode17.day2 import *
 
 
-class Day1Puzzle1Test(unittest.TestCase):
+class Day2Puzzle1Test(unittest.TestCase):
     def test_empty(self):
         self.assertEqual(puzzle1([]), 0)
         self.assertEqual(puzzle1(['']), 0)
@@ -30,7 +30,7 @@ class Day1Puzzle1Test(unittest.TestCase):
             puzzle1(['1,2 3'])
 
 
-class Day1Puzzle2Test(unittest.TestCase):
+class Day2Puzzle2Test(unittest.TestCase):
     def test_even_division(self):
         self.assertEqual(even_division(8, 2), 4)
         self.assertEqual(even_division(100, 5), 20)
